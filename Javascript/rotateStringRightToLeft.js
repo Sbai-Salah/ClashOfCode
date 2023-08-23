@@ -33,8 +33,9 @@ function shiftString(text, moves){
 }
 
 console.log(shiftString(text, moves));
+// example : LAUGHTALE < : AUGHTALE + L //// LAUGHTALE > : E + LAUGHTAL
 
-// shiftedText.slice(1) : cuts the first char in the text
-// shiftedText.slice(-1) : cuts the last char in the text
-// shiftedText.slice(0, -1) : cuts from the first char to the before-last char
+// shiftedText.slice(1) : cuts the first char in the text --> AUGHTALE
+// shiftedText.slice(-1) : cuts the last char in the text --> E
+// shiftedText.slice(0, -1) : cuts from the first char to the before-last char --> LAUGHTAL
   
